@@ -8,6 +8,4 @@ $(document).ready(function () {
         })
 
     $('main').show();
-
-    $('[data-toggle="tooltip"]').tooltip()
 });
