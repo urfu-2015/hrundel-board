@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 15px;
+}
+
+main {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #d00;
+}
+
+table th {
+    border-bottom-width: 1px !important;
+}
+
+table .name {
+    text-decoration: underline;
+}
+
+.accepted {
+    color: #080;
+}
+
+.half-accepted {
+    color: #3F7EC3;
+}
+
+.done {
+    color: #e70;
+}
+
+.failed {
+    color: #c00;
+}
+
+.status {
+    font-weight: bold;
+}
+
+.avatar {
+    float: right;
+}
+
+.avatar img {
+    border-radius: 50%;
+
+    opacity: .3;
+}
+
+.avatar:hover img {
+    opacity: 1;
+}
+
+.grade {
+    float: left;
+
+    font-size: 20px;
+}
