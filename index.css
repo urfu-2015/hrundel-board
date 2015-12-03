@@ -71,3 +71,7 @@ table .name {
 
     font-size: 18px;
 }
+
+.star {
+    cursor: pointer;
+}
